@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AEE9161225FA275004ACB86 /* SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE9160225FA275004ACB86 /* SKScene.swift */; };
 		2AF58827225D0DE200F4ED32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF58826225D0DE200F4ED32 /* AppDelegate.swift */; };
 		2AF58829225D0DE200F4ED32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF58828225D0DE200F4ED32 /* ViewController.swift */; };
 		2AF5882C225D0DE200F4ED32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF5882A225D0DE200F4ED32 /* Main.storyboard */; };
 		2AF5882F225D0DE200F4ED32 /* ticTacToe_Dodson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5882D225D0DE200F4ED32 /* ticTacToe_Dodson.xcdatamodeld */; };
 		2AF58831225D0DE200F4ED32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF58830225D0DE200F4ED32 /* Assets.xcassets */; };
 		2AF58834225D0DE200F4ED32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF58832225D0DE200F4ED32 /* LaunchScreen.storyboard */; };
+		2AF5883C225D4A2E00F4ED32 /* Gem.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2AF5883B225D4A2E00F4ED32 /* Gem.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AEE9160225FA275004ACB86 /* SKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKScene.swift; sourceTree = "<group>"; };
 		2AF58823225D0DE200F4ED32 /* ticTacToe_Dodson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticTacToe_Dodson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF58826225D0DE200F4ED32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF58828225D0DE200F4ED32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		2AF58830225D0DE200F4ED32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AF58833225D0DE200F4ED32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AF58835225D0DE200F4ED32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF5883B225D4A2E00F4ED32 /* Gem.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Gem.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2AF58832225D0DE200F4ED32 /* LaunchScreen.storyboard */,
 				2AF58835225D0DE200F4ED32 /* Info.plist */,
 				2AF5882D225D0DE200F4ED32 /* ticTacToe_Dodson.xcdatamodeld */,
+				2AF5883B225D4A2E00F4ED32 /* Gem.sks */,
+				2AEE9160225FA275004ACB86 /* SKScene.swift */,
 			);
 			path = ticTacToe_Dodson;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				2AF58834225D0DE200F4ED32 /* LaunchScreen.storyboard in Resources */,
 				2AF58831225D0DE200F4ED32 /* Assets.xcassets in Resources */,
 				2AF5882C225D0DE200F4ED32 /* Main.storyboard in Resources */,
+				2AF5883C225D4A2E00F4ED32 /* Gem.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AEE9161225FA275004ACB86 /* SKScene.swift in Sources */,
 				2AF58829225D0DE200F4ED32 /* ViewController.swift in Sources */,
 				2AF5882F225D0DE200F4ED32 /* ticTacToe_Dodson.xcdatamodeld in Sources */,
 				2AF58827225D0DE200F4ED32 /* AppDelegate.swift in Sources */,
